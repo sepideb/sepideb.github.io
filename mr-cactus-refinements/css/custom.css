@@ -1,0 +1,58 @@
+.bg-primary, .btn-primary{
+		background-color: green !important;
+}
+
+#homepage .jumbotron{
+	background-image: url(../img/cactus.jpg);
+	background-size: cover;
+}
+
+
+#garden .jumbotron{
+	background-image: url(../img/garden.jpg);
+	background-size: cover;
+}
+
+
+#about .jumbotron{
+	background-image: url(../img/mr-cactus.jpg);
+	background-size: cover;
+	background-position: 50%;
+}
+#about .progress{
+	text-transform: uppercase;
+}
+#contact .jumbotron{
+	background-image: url(../img/mr-cactus.jpg);
+	background-size: cover;
+}
+
+.introtext{
+	color: #fff;
+	background-color: rgba(0,0,0,0.50);
+	margin: 0 auto;
+	width: 50%;
+	text-align: center;
+	padding: 1em;
+}
+
+
+#prickly .jumbotron {
+  position: relative;
+  overflow: hidden;
+  background-color:black;
+}
+#prickly .jumbotron video {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  width:100%;
+  height:100%;
+  /*  object-fit is not supported on IE  */
+  object-fit: cover;
+  opacity:0.5;
+}
+#prickly .jumbotron .container {
+  z-index: 2;
+  position: relative;
+}
